@@ -133,6 +133,6 @@ dmypy.json
 .vscode/
 
 #images
-nasa/images
-maps/images
-agro/images
+nasa_images/
+maps_images/
+agro_images/
