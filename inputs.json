@@ -1,0 +1,59 @@
+{
+  "API_ENDPOINT_URL": "",
+  "API_KEY": "",
+  "IMAGE_DIR": "",
+  "image_params": {
+    "zoom": 19,
+    "size": 500,
+    "maptype": "satellite",
+    "scale": 1,
+    "overlap": false
+  },
+  "data": [
+    {
+      "name": "Monnon",
+      "center": {
+        "lat": 9.842512545857295,
+        "lon": 3.178864159225679,
+        "pos": "0-0"
+      },
+      "grid_size": 4
+    },
+    {
+      "name": "Sansi Gando",
+      "center": {
+        "lat": 9.947918876779305,
+        "lon": 3.418565372555757,
+        "pos": "0-0"
+      },
+      "grid_size": 4
+    },
+    {
+      "name": "Besen Gourou",
+      "center": {
+        "lat": 9.905892745519134,
+        "lon": 3.3503704780320653,
+        "pos": "0-0"
+      },
+      "grid_size": 4
+    },
+    {
+      "name": "Barkedje",
+      "center": {
+        "lat": 10.025566023035594,
+        "lon": 3.2878874546252925,
+        "pos": "0-0"
+      },
+      "grid_size": 4
+    },
+    {
+      "name": "Boudal",
+      "center": {
+        "lat": 9.866730087086863,
+        "lon": 3.1727889023629556,
+        "pos": "0-0"
+      },
+      "grid_size": 4
+    }
+  ]
+}
