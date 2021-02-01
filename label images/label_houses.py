@@ -27,6 +27,8 @@ def save_xy(event,x,y,flags,param):
         
 print("select file to work")
 images = [f for f in os.listdir() if 'png' in f]
+if len(images) == 0:
+      raise Exception('no png in folder')
 for im in images:
     print(im)
     y_n = input("es esta [y] o [n]")
@@ -137,7 +139,6 @@ if y_n == 'y':
     df[['houses','type']]=[pd.Series([str(d),'metal']) for d in all_points_metal
                           ]+[pd.Series([str(d),'round']) for d in all_points_round]
     df['village']=vil
-    df['size']=file.split('_')[1].split('.')[0]
     conn = sqlite3.connect("casas.sqlite")
     conn.execute('DROP TABLE IF EXISTS `'+vil+'`')
     df.to_sql(vil,conn)
