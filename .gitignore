@@ -138,5 +138,7 @@ maps_images/
 agro_images/
 cache/
 images/
+*/*.png
+*/*.jpg
 *.png
-.*jpg
+*.jpg
