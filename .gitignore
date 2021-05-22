@@ -134,6 +134,8 @@ dmypy.json
 
 #images
 nasa_images/
+
+#Roboimages
 maps_images/
 agro_images/
 cache/
@@ -142,3 +144,6 @@ images/
 */*.jpg
 *.png
 *.jpg
+*.txt
+*.csv
+*.labels
